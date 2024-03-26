@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    letter-spacing: 3px;
+}
+
+body{
+    position: relative;
+    background: linear-gradient(#735296, #20177C);
+}
+
+.apresentação{
+    margin-left: 32px;
+    margin-top: 82px;
+}
+
+.apresentação h4, h3, p{
+    color: #FFFFFF;
+    padding-top: 24px;
+    padding-bottom: 50px;
+    padding-right: 3em;
+}
+
+h1{
+    color: #2FBDEA;
+    font-weight: 600px;
+    font-size: 48px;
+}
+
+.list-icons ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.list-icons li{
+    padding: 20px;
+}
+
+.secundary-content{
+    border-top: 0.4px solid #ffffff6d;
+    color: #FFFFFF;
+    margin-top: 42px;
+    margin-bottom: 90px;
+    padding-bottom: 120px;
+}
+
+.secundary-content h4{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 52px;
+    margin-bottom: 60px;
+    letter-spacing: 3px;
+}
+
+.box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconsWeb{
+    padding-right: 32px;
+}
+
+.iconsWeb ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 32px;
+    padding-right: 32px;
+}
+
+.iconsWeb li{
+    padding-right: 50px;
+}
+
+#web{
+    padding-right: 110px;
+    letter-spacing: 3px;
+}
+
+.iconJS{
+    padding-top: 30px;
+    padding-left: 58px;
+}
+
+#back{
+    padding-right: 80px;
+    letter-spacing: 3px;
+}
+
+.iconsBACK ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 32px;
+    padding-right: 32px;
+}
+
+.iconsBACK li{
+    padding-right: 50px;
+}
+
+.iconSQL{
+    padding-top: 30px;
+    padding-left: 58px;
+}
+
+.terciary-content{
+    border-top: 0.4px solid #ffffff6d;
+    color: #FFFFFF;
+}
+
+.iconMe{
+    padding-left: 32px;
+    padding-right: 20px;
+}
+
+.iconMe img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.primeiroIcon img{
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+}
+
+.primeira-caixa{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-content-terciary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    margin-bottom: 52px;
+}
+
+.box-content-terciary p{
+    padding-left: 32px;
+    padding-bottom: 52px;
+}
+
+.quartenary-content, .quintenary-content{
+    margin-bottom: 52px;
+    color: #FFFFFF;
+}
+
+.quartenary-content, footer, .ultima-caixa{
+    border-top: 0.4px solid #ffffff6d;
+}
+
+.box-content-quartenary, .box-content-quintenary{
+    display: flex;
+    justify-content: space-around;
+}
+
+.experiences{
+    margin-right: 120px;
+    margin-left: 52px;
+    padding-right: 170px;
+    border-right: 0.4px solid #ffffff6d;
+}
+
+.descricao-experience{
+    padding-left: 30px;
+    padding-right: 84px;
+}
+
+.education{
+    margin-right: 120px;
+    margin-left: 52px;
+    padding-right: 52px;
+    border-right: 0.4px solid #ffffff6d;
+}
+
+.descricao-education{
+    padding-left: 30px;
+    padding-right: 84px;
+}
+
+.descricao-education p{
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.eeep{
+    margin-top: 40px;
+}
+
+.tec{
+    margin-top: 55px;
+}
+
+
+.descricao-education ul{
+    list-style: none;
+}
+
+.ultima-caixa{
+    margin-bottom: 8em;
+}
+.ultima-caixa .conteudo-da-ultima{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.alignEmail, .alignZap, .alignLocalidade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iconsContato{
+    margin-right: 53px;
+}
+
+footer{
+    background-color: #1e1e1ed1;
+}
+
+.itensRodape{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2em;
+    padding-bottom: 1em;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: rgba(253, 215, 128, 0.493);
+}
+
+.conteudo-da-ultima{
+    margin-right: 7em;
+}
